@@ -8,6 +8,7 @@ int duration_secs = 20
 
  def func(bugs_count, duration_secs
         ):
+     return bugs_count, duration_secs
 
 db.project.update(
 bugs_count
